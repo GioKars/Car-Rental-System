@@ -27,6 +27,8 @@ Desktop.ini
 /google-services.json
 /firebase/credentials.json
 .firebaseauthrc
+/firebase-adminsdk-*.json  # Ignoring Firebase Admin SDK JSON file
+
 
 # Key Stores
 *.jks
