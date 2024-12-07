@@ -1,0 +1,96 @@
+/* Container for the edit user page */
+.edit-user-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #f4f4f9;
+    min-height: 70vh;
+  }
+  
+  .edit-user-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .edit-user-header {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .edit-user-header h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .edit-user-header p {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .edit-user-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-group input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .form-group input:focus {
+    outline-color: #007bff;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-buttons button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .form-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-buttons button[type="button"] {
+    background-color: #f4f4f9;
+    color: #007bff;
+    border: 1px solid #007bff;
+  }
+  
+  .form-buttons button[type="button"]:hover {
+    background-color: #e6f0ff;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  

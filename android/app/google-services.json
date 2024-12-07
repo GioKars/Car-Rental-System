@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "210733690955",
+    "firebase_url": "https://android-car-a6e71-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "android-car-a6e71",
+    "storage_bucket": "android-car-a6e71.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210733690955:android:285adfeb3aa52102ed9dce",
+        "android_client_info": {
+          "package_name": "com.example.car_rent"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjvEPsxFpKsXNCGJwXmBEFmpQu5i7aoo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

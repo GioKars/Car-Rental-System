@@ -1,0 +1,53 @@
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: flex-end; /* Pushes the button to the right */
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .navbar-links a {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* General button styles */
+.navbar-actions button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Logout button */
+.navbar-actions button:not(.home-button) {
+  background-color: #f44336;
+  color: white;
+}
+
+.navbar-actions button:not(.home-button):hover {
+  background-color: #d32f2f;
+}
+
+/* Home button */
+.navbar-actions .home-button {
+  background-color: #7d9bee; /* Blue background */
+  color: white;
+}
+
+.navbar-actions .home-button:hover {
+  background-color: #1976d2; /* Darker blue when hovered */
+}
+  .main-content {
+    padding: 20px;
+  }
+  

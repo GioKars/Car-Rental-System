@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.user-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  min-height: 10vh;
+}
+
+/* Card Layout */
+.user-details-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  max-width: 700px;
+  width: 100%;
+}
+
+/* Header */
+.user-details-header {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.user-details-header h2 {
+  font-size: 28px;
+  color: #333;
+  margin: 0;
+}
+
+.user-details-header p {
+  font-size: 14px;
+  color: #888;
+  margin: 5px 0 0;
+}
+
+/* User Information Section */
+.user-details-section {
+  margin-bottom: 20px;
+}
+
+.user-details-section h3 {
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.user-details-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-details-section ul li {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.user-details-section ul li span {
+  font-weight: bold;
+  color: #555;
+}
+
+/* Rental History */
+.rental-history li {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.rental-history li:last-child {
+  border-bottom: none;
+}
+
+/* Buttons */
+.user-details-buttons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.user-details-buttons a,
+.user-details-buttons button {
+  flex: 1;
+  min-width: 100px;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
+
+.user-details-buttons .edit-link {
+  background-color: #3498db;
+}
+
+.user-details-buttons .review-link {
+  background-color: #27ae60;
+}
+
+.user-details-buttons .ban-toggle-button {
+  background-color: #e74c3c;
+}
+
+.user-details-buttons button:hover,
+.user-details-buttons a:hover {
+  opacity: 0.9;
+}
+
+.user-details-buttons button:focus,
+.user-details-buttons a:focus {
+  outline: 2px solid #333;
+}
+/* Rental History Toggle Button */
+.toggle-rentals-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.toggle-rentals-button:hover {
+  opacity: 0.9;
+}

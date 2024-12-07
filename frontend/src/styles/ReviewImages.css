@@ -1,0 +1,71 @@
+/* Container for the whole review page */
+.review-images-container {
+    padding: 20px;
+  }
+  
+  /* Image Grid */
+  .images-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .image-item {
+    text-align: center;
+  }
+  
+  .image-item img {
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  /* Approve and Reject Buttons */
+  .approve-button, .reject-button {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .approve-button button, .reject-button button {
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 150px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .approve-button button {
+    background-color: #28a745; /* Green for approve */
+    color: white;
+  }
+  
+  .reject-button button {
+    background-color: #dc3545; /* Red for reject */
+    color: white;
+  }
+  
+  /* Hover Effects for Buttons */
+  .approve-button button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  .reject-button button:hover {
+    background-color: #c82333; /* Darker red on hover */
+  }
+  
+  /* Save Review Button */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  

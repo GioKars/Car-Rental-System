@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/carImageHistory"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop" />
+    <TextView
+        android:id="@+id/carModelHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Car Model"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/startDateHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Date" />
+
+    <TextView
+        android:id="@+id/endDateHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End Date" />
+
+    <TextView
+        android:id="@+id/totalPriceHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Price" />
+</LinearLayout>

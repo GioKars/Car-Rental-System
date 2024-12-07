@@ -1,0 +1,29 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# Editor directories and files
+.idea/
+.vscode/
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+android-car-a6e71-firebase-adminsdk-9s72p-d991c60e77.json
+src/setAdmin.js
+src/firebase.js

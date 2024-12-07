@@ -1,0 +1,52 @@
+# Gradle files
+*.iml
+.gradle
+/local.properties
+.gradle/*  # Cache and build-specific files
+
+# Android Studio/IDE Files
+/.idea
+/.idea/*
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/launch.json
+
+# OS-specific Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Build Output
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Firebase Config
+/google-services.json
+/firebase/credentials.json
+.firebaseauthrc
+
+# Key Stores
+*.jks
+*.keystore
+
+# Log Files
+*.log
+*.log.*
+
+# APK/AAB Files
+*.apk
+*.aab
+
+# IntelliJ-specific Files
+out/
+*.ipr
+*.iws
+
+# Miscellaneous
+*.swp
+*.swo
+*.bak
+*~ 

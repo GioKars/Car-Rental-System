@@ -1,0 +1,82 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services' // Firebase plugin for Google Services
+}
+
+android {
+    namespace 'com.example.car_rent'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.car_rent"
+        minSdk 23
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        // Avoid potential file path issues for image uploads
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    // Enable support for Java 8 features
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    // Explicitly enable BuildConfig if needed
+    buildFeatures {
+        buildConfig true
+    }
+}
+
+dependencies {
+    // Firebase dependencies for Storage, Firestore, and Authentication
+    implementation 'com.google.firebase:firebase-storage:21.0.1'
+    implementation 'com.google.firebase:firebase-firestore:25.1.1'
+    implementation 'com.google.firebase:firebase-auth:23.1.0'
+
+    // Image loading library
+    implementation 'com.squareup.picasso:picasso:2.8'
+
+    // AndroidX libraries
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.2.0'
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'androidx.activity:activity:1.9.3'
+
+    // Date picker library
+    implementation 'com.wdullaer:materialdatetimepicker:4.2.3'
+
+    // Retrofit and OkHttp for API communication
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.3'
+
+    // OkHttp for handling file upload
+    implementation 'com.squareup.okhttp3:okhttp:4.10.0'
+
+    // Testing libraries
+    implementation 'androidx.test:monitor:1.7.2'
+    implementation 'androidx.test.ext:junit:1.2.1'
+    testImplementation 'junit:junit:4.13.2'
+
+    implementation 'com.google.firebase:firebase-database:21.0.0'
+
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.16.0'
+
+
+
+}
+
+apply plugin: 'com.google.gms.google-services' // Keep this plugin at the bottom

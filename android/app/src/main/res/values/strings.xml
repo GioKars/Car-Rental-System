@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Car Rent</string>
+    <string name="car_model">Car Model</string>
+    <string name="car_descriptions">Descriptions</string>
+    <string name="car_Year">Year</string>
+    <string name="car_Seats">Seats</string>
+    <string name="car_Transmission"> Transmission</string>
+    <string name="car_FuelType">FuelType</string>
+    <string name="car_DailyPrice">Daily Price</string>
+    <string name="Register_Login">Register/Login</string>
+    <string name="Dashboard">Welcome to the Dashboard</string>
+
+    <string name="Upload_ID">Upload ID (Front &amp; Back)</string>
+    <string name="Upload_Dlicense">Upload Driver License (Front &amp; Back)</string>
+    <string name="Save">Save</string>
+    <string name="Email">Email</string>
+    <string name="fName">First Name</string>
+    <string name="Surname">Surname</string>
+    <string name="Phone">Phone number</string>
+
+    <string name="Ban">Your account has been banned. Please contact support for more information.</string>
+    <string name="Contact_support"> Contact Support</string>
+</resources>

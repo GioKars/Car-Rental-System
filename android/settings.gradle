@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        google() // Firebase dependencies
+        mavenCentral() // Maven Central for other dependencies
+        gradlePluginPortal() // Optional, for Gradle plugin dependencies
+        jcenter()  // Optional: Sometimes adding jcenter helps if some dependencies are hosted there
+
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google() // Firebase dependencies
+        mavenCentral() // Maven Central for other dependencies
+    }
+}
+
+rootProject.name = "Car_Rent"
+include ':app'
